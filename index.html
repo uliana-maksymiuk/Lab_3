@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app = 'moduleApp'>
+<head>
+    <meta charset="UTF-8">
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+        <script src="script.js"></script>
+         <link rel="stylesheet" href="style.css">
+        <title>Лабораторна робота №3</title>
+</head>
+<body>
+    <div class="background">
+	<div align="center">
+	<h3> Лабораторна робота номер 3 </h3>
+<div ng-controller="controller">
+    <label>Введіть сніданок: </label>
+    <input type="isFine" ng-model="products" class="input" > <br> <br>
+    <button ng-click="setResult()"  class="btn">Чи не забагато?</button> <br> <br>
+        <div>{{isFine}}</div>
+</div>
+</div>
+</div>
+</body>
+</html>
